@@ -1,0 +1,30 @@
+# USER AGENT KHUSUS UNTUK YANDEX
+# Instruksi khusus untuk YandexBot
+User-agent: YandexBot
+Allow: /
+# Crawl-delay: 1 # Opsi: Bisa dihilangkan atau diatur rendah jika server kuat
+# Host: https://maturecamslive.biz.id/2025/11/best-mature-cams-online.html# Opsi: Biasanya tidak diperlukan di era modern, tapi bisa dicantumkan
+
+# USER AGENT KHUSUS UNTUK BING
+# Instruksi khusus untuk Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0 # Memberi sinyal untuk merayap secepat mungkin
+# Kita juga bisa menggunakan User-agent: MSNBot (nama lama) jika perlu
+
+# USER AGENT KHUSUS UNTUK DUCKDUCKGO
+# DuckDuckGoBot umumnya mengikuti instruksi Googlebot atau aturan default
+# Kita berikan akses penuh untuk memastikan perayapan cepat.
+User-agent: DuckDuckGoBot
+Allow: /
+
+# USER AGENT UMUM / DEFAULT
+# Instruksi untuk semua crawler lain (seperti Googlebot, Baidu, dll.)
+User-agent: *
+Allow: /
+# Disallow: /private/ # Contoh: Jika ada folder yang ingin di-blok
+
+# LOKASI SITEMAP
+# Sangat penting untuk membantu crawler menemukan semua halaman Anda dengan cepat
+Sitemap: https://maturecamslive.biz.id/2025/11/best-mature-cams-online.html
+Sitemap: https://maturecamslive.biz.id/2025/11/live-mature-cam-shows.html
